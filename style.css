@@ -38,19 +38,19 @@ img {
 /* 768x384 */
 @media only screen and (max-width: 768px) {
     #millones, #title1{
-        font-size: 25pt !important;
+        font-size: 50pt !important;
         font-family: 'COCOGOOSE', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         color: #fff;
-        left: 29%;
+        left: 30%;
         top: 41%;
         right: 8%;
         position: absolute;
     }
     #millones, #title2{
-        font-size: 25pt !important;
+        font-size: 50pt !important;
         font-family: 'COCOGOOSE', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         color: #fff;
-        left: 57%;
+        left: 55%;
         top: 41%;
         right: 8%;
         position: absolute;
