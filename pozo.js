@@ -4,9 +4,7 @@ const URI = "https://widgets.fn.sportradar.com/betinaction2/es/Etc:UTC/gismo/mat
 var content = document.getElementById('contenido');
 
 async function init() {
-   setInterval(() => {
-    getUser();
-  }, 2000);
+  getUser();
   content.style.display = "block";
 }
 
