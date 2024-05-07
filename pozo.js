@@ -21,8 +21,8 @@ async function getUser(){
 
   if (xmlData) {
     
-    document.getElementById('title1').innerHTML = xmlData.away;
-    document.getElementById('title2').innerHTML = xmlData.home;
+    document.getElementById('title1').innerHTML = xmlData.home;
+    document.getElementById('title2').innerHTML = xmlData.away;
     // document.getElementById('title3').innerHTML = xmlData2.liveTime;
   }
 }
