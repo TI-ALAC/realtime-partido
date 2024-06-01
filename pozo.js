@@ -1,4 +1,4 @@
-const URI = "https://sb2frontend-altenar2.biahosted.com/api/widget/GetTopEvents?culture=es-ES&timezoneOffset=300&integration=ecuabet&deviceType=1&numFormat=en-GB&countryCode=PE&eventCount=0&sportId=0&timePeriod=1";
+const URI = "https://widgets.fn.sportradar.com/betinaction2/es/Etc:UTC/gismo/match_timelinedelta/48613125?T=exp=1717354229~acl=/*~data=eyJvIjoiaHR0cHM6Ly9lY3VhYmV0LmNvbSIsImEiOiJlZTExYzI1NmQxYTliYmM1MzBiNGEzMzgwZGFlODY5OCIsImFjdCI6Im9yaWdpbmNoZWNrIiwib3NyYyI6Im9yaWdpbiJ9~hmac=facd385a8161f03b446a6012f7881c0bb807e5a50a7ef8cad95b06e770fc7912";
 // const URI2 = "https://sb2frontend-altenar2.biahosted.com/api/widget/GetEventDetails?culture=es-ES&timezoneOffset=300&integration=ecuabet&deviceType=1&numFormat=en-GB&countryCode=PE&eventId=9582294";
 
 var content = document.getElementById('contenido');
