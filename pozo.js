@@ -13,6 +13,7 @@ async function getUser(){
 
   const resp = await axios.get(URI);
   // const resp2 = await axios.get(URI2);
+  console.log(resp.data.doc[0])
   const xmlData = resp.data.doc[0].data.match.result;
   // const xmlData2 = resp2.data;
 
