@@ -11,17 +11,18 @@ async function init() {
 init();
 async function getUser(){
 
-  const resp = await axios.get(URI);
-  // const resp2 = await axios.get(URI2);
-  console.log(resp.data.doc[0])
-  const xmlData = resp.data.doc[0].data.match.result;
+  // const resp = await axios.get(URI);
+  // // const resp2 = await axios.get(URI2);
+  // console.log(resp.data.doc[0])
+  // const xmlData = resp.data.doc[0].data.match.result;
   // const xmlData2 = resp2.data;
 
-
-  if (xmlData) {
+  document.getElementById('title1').innerHTML = 0;
+  document.getElementById('title2').innerHTML = 0;
+  // if (xmlData) {
     
-    document.getElementById('title1').innerHTML = xmlData.home;
-    document.getElementById('title2').innerHTML = xmlData.away;
-    // document.getElementById('title3').innerHTML = xmlData2.liveTime;
-  }
+  //   document.getElementById('title1').innerHTML = 0;
+  //   document.getElementById('title2').innerHTML = 0;
+  //   // document.getElementById('title3').innerHTML = xmlData2.liveTime;
+  // }
 }
