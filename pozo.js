@@ -18,7 +18,7 @@ async function getUser(){
   // const xmlData2 = resp2.data;
 
   document.getElementById('title1').innerHTML = 0;
-  document.getElementById('title2').innerHTML = 0;
+  document.getElementById('title2').innerHTML = 2;
   // if (xmlData) {
     
   //   document.getElementById('title1').innerHTML = 0;
