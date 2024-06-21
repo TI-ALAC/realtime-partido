@@ -36,7 +36,30 @@ img {
     position: absolute;
 }
 /* 768x384 */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 800px) {
+    #millones, #title1{
+        font-size: 80pt !important;
+        font-family: 'Flama';
+        color: #000;
+        left: 0%;
+        top: 41%;
+        right: 0%;
+        position: absolute;
+    }
+    #millones, #title2{
+        font-size: 80pt !important;
+        font-family: 'Flama';
+        color: #000;
+        left: 15%;
+        top: 60%;
+        right: 5%;
+        position: absolute;
+    }
+
+}
+
+/* 768x384 */
+@media only screen and (max-width: 960px) {
     #millones, #title1{
         font-size: 80pt !important;
         font-family: 'Flama';
