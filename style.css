@@ -36,7 +36,7 @@ img {
     position: absolute;
 }
 /* 768x384 */
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 768px) {
     #millones, #title1{
         font-size: 80pt !important;
         font-family: 'Flama';
