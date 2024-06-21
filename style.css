@@ -4,8 +4,8 @@
 }
 
 @font-face {
-    font-family: 'COCOGOOSE';
-    src: url(fonts/HeinekenSerif18-Bold.ttf);
+    font-family: 'Flama';
+    src: url(fonts/Flama-Condensed-Black.otf);
     font-weight: regular;
 }
 
@@ -28,7 +28,7 @@ img {
 
 #millones{
     font-size: 45pt ;
-    font-family: 'COCOGOOSE', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Flama', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #000;
     left: 5%;
     top: 28%;
@@ -38,31 +38,22 @@ img {
 /* 768x384 */
 @media only screen and (max-width: 768px) {
     #millones, #title1{
-        font-size: 50pt !important;
-        font-family: 'COCOGOOSE', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        color: #fff;
-        left: 25%;
+        font-size: 54pt !important;
+        font-family: 'Flama';
+        color: #000;
+        left: 0%;
         top: 41%;
-        right: 8%;
+        right: 0%;
         position: absolute;
     }
     #millones, #title2{
-        font-size: 50pt !important;
-        font-family: 'COCOGOOSE', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        color: #fff;
-        left: 54%;
-        top: 41%;
-        right: 8%;
+        font-size: 54pt !important;
+        font-family: 'Flama';
+        color: #000;
+        left: 15%;
+        top: 66%;
+        right: 5%;
         position: absolute;
     }
 
-    #millones2, #title3{
-        font-size: 25pt !important;
-        font-family: 'COCOGOOSE', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        color: #fff;
-        left: 50%;
-        top: 52%;
-        right: 8%;
-        position: absolute;
-    }
 }
